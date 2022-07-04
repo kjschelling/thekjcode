@@ -1,0 +1,16 @@
+.aboutContainer {}
+
+.headshot {
+    height: 22em;
+    width: 22em;
+    border: 1px solid #1E293B;
+    -webkit-box-shadow: 5px 5px 15px 5px #F2EBE2;
+    box-shadow: 5px 5px 15px 5px #F2EBE2;
+}
+
+@media screen and (max-width: 300px) {
+    .headshot {
+        height: 12em;
+        width: 12em;
+    }
+}

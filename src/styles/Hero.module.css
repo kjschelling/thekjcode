@@ -1,0 +1,24 @@
+.heroSection {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    background-image: url("/src/images/Ball-Gif.gif");
+    background-attachment: fixed;
+}
+
+.heroTextDiv {
+    padding-top: 300px;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-size: 42px;
+    text-shadow: 1px 1px 2px gray;
+}
+
+
+@media screen and (max-width:300px) {
+    .heroTextDiv {
+        font-size: 30px;
+        padding-top: 200px;
+
+    }
+}
