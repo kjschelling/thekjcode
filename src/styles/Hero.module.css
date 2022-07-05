@@ -15,7 +15,7 @@
 }
 
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:400px) {
     .heroTextDiv {
         font-size: 30px;
         padding-top: 200px;
