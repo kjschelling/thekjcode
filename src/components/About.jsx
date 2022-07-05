@@ -12,7 +12,7 @@ function About(props) {
             </div>
             <div className="max-w-3/4 mx-auto">
                 <div className="grid xs:grid-cols-1 md:grid-cols-2 md:gap-5 mx-auto">
-                    <div className="my-3 pl-12 ml-12 text-xl mx-auto font-roboto">
+                    <div className="my-3 md:pl-12 md:ml-12 text-xl mx-auto font-roboto">
                         <p><span className="font-semibold">Hi, I'm KJ.</span>
                             <br />
                             <br />I build responsive full stack applications, websites & Dapps. Whether it be a wordpress site, full stack application or a web3 site, I always keep the consumer in mind for smooth operation. I have a wide range of development skills and love working together to create products my team and clients will be proud of.
@@ -20,7 +20,7 @@ function About(props) {
                             <br /> Working for mutliple startups, I have expanded my knowledge expotientially developing team organization, communication, and productivity while mentoring along the way. I absolutely love problem-solving, creating both internal & external documentation to optimize team efficency and eliminate confusion.</p>
                     </div>
                     <div className="">
-                        <img className={clsx(styles.headshot, "mx-auto")} src={kjcodeheadshot} />
+                        <img className={clsx(styles.headshot, "mx-auto mt-10")} src={kjcodeheadshot} />
                     </div>
                 </div>
             </div>
