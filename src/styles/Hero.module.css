@@ -19,6 +19,14 @@
     .heroTextDiv {
         font-size: 30px;
         padding-top: 200px;
+    }
 
+    .heroSection {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        background-image: url("/src/images/Ball-Gif-smol.gif");
+        background-attachment: fixed;
     }
 }

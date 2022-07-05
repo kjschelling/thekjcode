@@ -22,11 +22,11 @@ function Projects(props) {
                             </li>
                             <br />
                             <li>
-                                Built with React.js, Tailwind for responsive & interactive mobile first experience, using design best practices.
+                                Built using React.js, Tailwind for responsive & interactive mobile first experience, using design best practices.
                             </li>
                             <br />
                             <li>
-                                Ensured the website is accessible across many platforms, desktops & mobile and optimized for peak performance.
+                                Ensured the website is accessible across many platforms, desktop/mobile and optimized for peak performance.
                             </li>
                         </ul>
                     </div>
@@ -46,9 +46,9 @@ function Projects(props) {
                 </div>
                 <div className="mt-12">
                     <h2 className="font-source text-3xl p-5 mb-4">Software Engineer - Pedestal </h2>
-                    <ul className="text-xl text-left"> <li>Working with a team to develop and implement SaaS social media platform for mentors and mentees to connect & mentors can monetize with a lead dev.</li>
+                    <ul className="text-xl text-left"> <li>Working with a team to develop and implement SaaS social media platform Pedestal. Pedestal enables mentors and mentees to connect & monetize mentorship.</li>
                         <br />
-                        <li> Worked with AWS, Express.js, Node.js, MongoDB, React.js, Typescript.</li>
+                        <li> Built and operated using AWS, Express.js, Node.js, MongoDB, React.js, Typescript.</li>
                         <br />
                         <li> Analyzed and implemented workflows assisting in optimizing team productivity. </li>
                         <br />
@@ -68,14 +68,14 @@ function Projects(props) {
                         <h2 className="font-source text-3xl p-5 mb-4">Web3 Engineer - Digitizing.io </h2>
                         <ul className="text-left">
                             <li>
-                                Worked with the clients and our development team to bring the vision of Mystic Sisterhood.io to life.
+                                Worked with the clients and our development team to bring the vision of Mystic Sisterhood a generative NFT release to life.
                             </li>
                             <br />
                             <li>
-                                Integrated MetaMask crypto-wallet, connecting to the Etheruem blockchain allowing for NFT Minting on site.
+                                Integrated MetaMask crypto-wallet, connecting to the Ethereum blockchain allowing for NFT Minting on site.
                             </li>
                             <br />
-                            <li>Created internal documentation and using storybook for resueable components in future projects.</li>
+                            <li>Created internal documentation and resueable components in storybook for future projects.</li>
                         </ul>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ function Projects(props) {
                             <br />
                             <li>Created internal documentation and using storybook for resueable components in future projects.</li>
                             <br />
-                            <li>Worked closely with the Solidity developers to and pull real-time data from the smart contracts.</li>
+                            <li>Worked closely with Solidity developers to pull real-time data from smart contracts.</li>
                         </ul>
                     </div>
                 </div>

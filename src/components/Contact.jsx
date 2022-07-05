@@ -11,7 +11,7 @@ function Contact(props) {
         <div id="contact" classname="full">
             <div className={clsx(styles.contactSection, "mx-auto text-center")}>
                 <h2 className="text-6xl font-source">Get In Touch</h2>
-                <p className="py-5 font-roboto text-2xl">I am currently looking for new opporunities. Please download my resume and reach out!</p>
+                <p className="py-5 font-roboto text-2xl">I am always open to new opporunities. Please download my resume and reach out!</p>
                 <div className="my-5">
 
                     {/*---- lets connect button --- ** add on click if doing the form */}
