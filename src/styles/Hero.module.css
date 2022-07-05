@@ -22,7 +22,7 @@
     }
 
     .heroSection {
-        background-size: fit;
+        background-size: contain;
         background-position: center;
         height: 500px;
         background-image: url("/src/images/Ball-Gif-smol.gif");
