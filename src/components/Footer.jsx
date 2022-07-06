@@ -7,7 +7,7 @@ function Footer(props) {
     return (<div className="full bg-biege">
         <div className="pb-7 mx-auto">
             <div className=" container mx-auto p-7 mb-2">
-                <div className="flex">
+                <div className="flex xs:ml-4">
                     <a href="https://github.com/kjschelling"><img src={github} className="h-12 w-12 m-4" /></a>
                     <a href="https://www.linkedin.com/in/thekjcode/"><img src={linkedin} className="h-11 w-11 m-4" /></a>
                     <a href=""><img src={twitter} className="h-10 w-10 m-4 mt-6" /></a>

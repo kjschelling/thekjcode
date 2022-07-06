@@ -9,7 +9,6 @@
 
 .heroTextDiv {
     padding-top: 300px;
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font-size: 42px;
     text-shadow: 1px 1px 2px gray;
 }
@@ -19,13 +18,15 @@
     .heroTextDiv {
         font-size: 30px;
         padding-top: 200px;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 
     .heroSection {
         background-size: cover;
-        /* background-position: center; */
+        background-position: center;
         height: 500px;
         background-image: url("/src/images/Ball-static.png");
-        /* background-attachment: fixed; */
+        background-attachment: fixed;
     }
 }

@@ -9,9 +9,9 @@
     box-shadow: 5px 5px 15px 5px #F2EBE2;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
     .headshot {
         height: 12em;
-        width: 14em;
+        width: 13em;
     }
 }
