@@ -18,7 +18,7 @@ module.exports = {
       'biege': '#F2EBE2',
     },
     screens: {
-      xxs: "250px",
+      xxs: "270px",
       xs: "320px",
       sm: '480px',
       md: '768px',

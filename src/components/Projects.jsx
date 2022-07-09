@@ -11,12 +11,12 @@ function Projects(props) {
             <div className="mt-12 md:py-4 mb-12">
                 <h2 className="text-center font-source text-5xl xs:mb-12 md:mb-1"> Experience </h2>
             </div>
-            <div className="grid font-roboto text-xl sm:grid-cols-1 md:grid-cols-2 gap-3 mx-5 mb-12 pb-12">
+            <div className="grid font-roboto text-lg sm:grid-cols-1 md:grid-cols-2 gap-3 mx-5 mb-12 pb-12">
                 {/* Projects/Experience Row 1 */}
                 <div className="md:mt-8">
                     <div className='md:pt-6'>
                         <h2 className="font-source text-3xl p-5 mb-4">Front End Development - Unnamed Technology </h2>
-                        <ul className="text-left xs:px-8 md:px-4">
+                        <ul className="md:text-left xxs:text-center xs:px-8 md:pl-8">
                             <li>
                                 Worked with client to implement and develop Unnamed Technology landing page for <a href="https://veecon.co/" className="font-semibold">VeeCon NYC</a>.
                             </li>
@@ -46,7 +46,7 @@ function Projects(props) {
                 </div>
                 <div className="md:mt-12">
                     <h2 className="font-source text-3xl p-5 mb-4">Software Engineer - Pedestal </h2>
-                    <ul className="text-left xs:px-8 md:px-4 "> <li>Working with a team to develop and implement SaaS social media platform Pedestal. Pedestal enables mentors and mentees to connect & monetize mentorship.</li>
+                    <ul className="md:text-left xxs:text-center xxs:px-8 md:px-4 "> <li>Working with a team to develop and implement SaaS social media platform Pedestal. Pedestal enables mentors and mentees to connect & monetize mentorship.</li>
                         <br />
                         <li> Built and operated using AWS, Express.js, Node.js, MongoDB, React.js, Typescript.</li>
                         <br />
@@ -66,7 +66,7 @@ function Projects(props) {
                 <div className="md:mt-12 xs:mb-6">
                     <div className="pt-6">
                         <h2 className="font-source text-3xl p-5 mb-4">Web3 Engineer - Digitizing.io </h2>
-                        <ul className="text-left xs:px-8 md:px-4">
+                        <ul className="md:text-left xxs:text-center xs:px-8 md:pl-8">
                             <li>
                                 Worked with the clients and our development team to bring the vision of Mystic Sisterhood a generative NFT release to life.
                             </li>
@@ -95,7 +95,7 @@ function Projects(props) {
                 <div className="md:mt-8">
                     <div className="pt-6">
                         <h2 className="font-source text-3xl mb-4">Web3 Engineer - Digitizing.io </h2>
-                        <ul className="text-left xs:px-8 md:px-4">
+                        <ul className="md:text-left xxs:text-center xs:px-8 md:px-4">
                             <li>
                                 Worked with a development team to create unique NFT & DAO Dapps, successly launching Klapes, Storks, Baby Klapes NFT's & KlubHouse NFT staking game.
                             </li>

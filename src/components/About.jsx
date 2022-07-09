@@ -25,10 +25,10 @@ function About(props) {
                 </div>
             </div>
 
-            <div className=" m-5 mt-10 full text-center text-2xl text-black">
+            <div className=" mt-10 full text-center text-xl text-black">
                 <p className="font-source text-3xl font-semibold">Recent technologies I worked with:</p>
                 <div className="container full mx-auto">
-                    <div className="my-10 grid xs:grid-cols-2 md:grid-cols-5 font-semibold">
+                    <div className="my-10 grid xxs:grid-cols-2 md:grid-cols-5 font-semibold">
                         <ul>
                             <li>Javascript</li>
                             <br />
