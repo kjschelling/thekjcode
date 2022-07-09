@@ -17,7 +17,7 @@ function About(props) {
                             <br />
                             <br />I build responsive full stack applications, websites & Dapps. Whether it be a wordpress site, full stack application or a web3 site, I always keep the consumer in mind for smooth operation. I have a wide range of development skills and love working together to create products my team and clients will be proud of.
                             <br />
-                            <br /> Working for mutliple startups, I have expanded my knowledge expotientially developing team organization, communication, and productivity while mentoring along the way. I absolutely love problem-solving, creating both internal & external documentation to optimize team efficency and eliminate confusion.</p>
+                            <br /> Working for mutliple startups, I have expanded my knowledge exponentially developing team organization, communication, and productivity while mentoring along the way. I absolutely love problem-solving, creating both internal & external documentation to optimize team efficency and eliminate confusion.</p>
                     </div>
                     <div className="">
                         <img className={clsx(styles.headshot, "mx-auto mt-10")} src={kjcodeheadshot} />
