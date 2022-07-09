@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.41e78eb1.css",
-    "main.js": "/static/js/main.83bbe205.js",
+    "main.css": "/static/css/main.d5b96ea7.css",
+    "main.js": "/static/js/main.598e57d9.js",
     "static/media/Ball-Gif.gif": "/static/media/Ball-Gif.80a352df14bf8f274ad5.gif",
-    "static/media/Ball-Gif-smol.gif": "/static/media/Ball-Gif-smol.389b425d40e9db71f134.gif",
     "static/media/kjcodeheadshot.png": "/static/media/kjcodeheadshot.2e80933f85ca45be2bff.png",
     "static/media/KlapesComp.png": "/static/media/KlapesComp.4060eda0bf4c82f379e6.png",
+    "static/media/Ball-static.png": "/static/media/Ball-static.b7a6bf67454ed121aeee.png",
     "static/media/MsComp.png": "/static/media/MsComp.782e5cf203a90890fae8.png",
     "static/media/PedestalComp.png": "/static/media/PedestalComp.7167342cfd9bc288b35f.png",
     "static/media/UnnamedComp.png": "/static/media/UnnamedComp.9ca82f1914f260f2116a.png",
@@ -14,11 +14,11 @@
     "static/media/github.svg": "/static/media/github.d47b846d9431fd4a77bde30718626d07.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.cdd55264eb1ae66abe74b56e1b007953.svg",
     "index.html": "/index.html",
-    "main.41e78eb1.css.map": "/static/css/main.41e78eb1.css.map",
-    "main.83bbe205.js.map": "/static/js/main.83bbe205.js.map"
+    "main.d5b96ea7.css.map": "/static/css/main.d5b96ea7.css.map",
+    "main.598e57d9.js.map": "/static/js/main.598e57d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.41e78eb1.css",
-    "static/js/main.83bbe205.js"
+    "static/css/main.d5b96ea7.css",
+    "static/js/main.598e57d9.js"
   ]
 }
