@@ -8,16 +8,11 @@ import KlapesImg from "../images/projects/KlapesComp.png";
 function Projects(props) {
     return (
         <div id="project_section" className="section full bg-biege text-black ">
-            <div className="mt-12 md:py-4">
+            <div className="mt-12 md:py-4 mb-12">
                 <h2 className="text-center font-source text-5xl xs:mb-12 md:mb-1"> Experience </h2>
             </div>
             <div className="grid font-roboto text-xl sm:grid-cols-1 md:grid-cols-2 gap-3 mx-5 mb-12 pb-12">
                 {/* Projects/Experience Row 1 */}
-                <div className="md:hidden xs:visible">
-                    <a href="https://www.unnamed.gg/" target="_blank">
-                        <img src={UnnamedImg} className='hover:scale-125 mx-auto' />
-                    </a>
-                </div>
                 <div className="md:mt-8">
                     <div className='md:pt-6'>
                         <h2 className="font-source text-3xl p-5 mb-4">Front End Development - Unnamed Technology </h2>
@@ -36,7 +31,7 @@ function Projects(props) {
                         </ul>
                     </div>
                 </div>
-                <div className="md:visible xs:hidden">
+                <div className="">
                     <a href="https://www.unnamed.gg/" target="_blank">
                         <img src={UnnamedImg} className='hover:scale-125 mx-auto' />
                     </a>
@@ -44,7 +39,7 @@ function Projects(props) {
                 {/* End of Row 1  */}
 
                 {/* Projects/Experience Row 2 */}
-                <div className="md:visible xs:ml-12 xs:pl-5 xs:mt-6">
+                <div className="xs:ml-12 mt-12">
                     <a href="https://pedestalapp.com/" target="_blank">
                         <img src={PedestalImg} className='hover:scale-125 mx-auto' />
                     </a>
@@ -68,11 +63,6 @@ function Projects(props) {
                 {/* End of Row 2 */}
 
                 {/* Projects/Experience Row 3 */}
-                <div className="md:hidden xs:visible xs:mt-6 ">
-                    <a href="https://www.mysticsisterhood.io/" target="_blank">
-                        <img src={MysticImg} className='hover:scale-125 mx-auto xs:pr-12' />
-                    </a>
-                </div>
                 <div className="md:mt-12 xs:mb-6">
                     <div className="pt-6">
                         <h2 className="font-source text-3xl p-5 mb-4">Web3 Engineer - Digitizing.io </h2>
@@ -89,7 +79,7 @@ function Projects(props) {
                         </ul>
                     </div>
                 </div>
-                <div className="md:visible xs:hidden">
+                <div className="md:mt-12">
                     <a href="https://www.mysticsisterhood.io/" target="_blank">
                         <img src={MysticImg} className='hover:scale-125 mx-auto' />
                     </a>
@@ -97,7 +87,7 @@ function Projects(props) {
                 {/* End of Row 3 */}
 
                 {/* Projects/Experience Row 4 */}
-                <div className="">
+                <div className="md:mt-12">
                     <a href="https://www.klapes.io/" target="_blank">
                         <img src={KlapesImg} className='hover:scale-115 mx-auto' />
                     </a>
