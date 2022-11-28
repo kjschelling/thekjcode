@@ -10,7 +10,7 @@ function Nav(props) {
                 <a href="#about_section" className={styles.navItem}>  About</a>
                 <a href="#project_section" className={styles.navItem}> Experience</a>
                 <a href="#contact" className={styles.navItem}> Contact</a>
-                <button href="https://drive.google.com/file/d/19H8b4UBCTSieEDJ399JORLIXpfsMD_Gt/view?usp=sharing" className={styles.navItem}> Resume</button>
+                <a href="https://drive.google.com/file/d/19H8b4UBCTSieEDJ399JORLIXpfsMD_Gt/view?usp=sharing" className={styles.navItem}> Resume</a>
             </div>
         </div>
     )
