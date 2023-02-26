@@ -15,8 +15,8 @@ const Modal = ({ isOpen, closeModal }) => {
         leaveTo="opacity-0"
       >
         <div className="fixed inset-0 z-10 flex items-center justify-center overflow-x-hidden overflow-y-auto">
-          <div className="relative bg-gray-100 rounded-lg w-1/2 mx-auto max-w-lg">
-            <div className="absolute top-0 right-0 pt-4 pr-4">
+          <div className="relative bg-gray-100 rounded-lg w-1/2 mx-auto max-w-lg    transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+            <div className="absolute top-0 right-0 pt-4 pr-4 px-5 py-3 rounded-lg bg-gray-50">
               <button
                 onClick={closeModal}
                 className="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600"

@@ -5,7 +5,6 @@ import Modal from "./Modal";
 import clsx from "clsx";
 
 function Contact(props) {
-  //state defined here, in the parent component
   const [isOpen, setIsOpen] = useState(false);
   const closeModal = () => {
     setIsOpen(false);
