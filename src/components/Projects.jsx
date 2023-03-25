@@ -14,8 +14,8 @@ function Projects(props) {
           Experience{" "}
         </h2>
       </div>
-      {/* ///////// NEW PROJECT CARD - UNNAMED  //////////// */}
-      <div class="max-w-sm w-full lg:max-w-full lg:flex bg-white rounded-l border">
+      {/* ///////// PROJECT CARD 1 - UNNAMED  //////////// */}
+      <div class="max-w-sm w-full lg:max-w-full xs:mx-auto lg:flex bg-white rounded-l border">
         <div class="h-auto  bg-cover rounded-t  text-center overflow-hidden ">
           <h2 className="font-source text-3xl p-5 mb-4 mt-7">
             Front End Development - Unnamed Technology{" "}
@@ -55,7 +55,7 @@ function Projects(props) {
           <div class="flex items-center"></div>
           <a
             href="https://www.unnamed.gg/"
-            className="relative inline-block text-lg group"
+            className="relative inline-block text-lg group mb-10"
           >
             <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
               <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
@@ -70,8 +70,8 @@ function Projects(props) {
         </div>
       </div>
       {/* ///////// NEW PROJECT - UNNAMED CARD END //////////// */}
-      {/* ///////// NEW PROJECT CARD - PEDESTAL APP  //////////// */}
-      <div class="max-w-sm w-full lg:max-w-full lg:flex bg-white rounded-l border">
+      {/* ///////// PROJECT CARD 3 - PEDESTAL APP  //////////// */}
+      <div class="max-w-sm w-full lg:max-w-full xs:mx-auto lg:flex bg-white rounded-l border">
         <div class="h-auto  bg-cover rounded-t  text-center overflow-hidden ">
           <h2 className="font-source text-3xl p-5 mb-4 mt-7">
             Software Engineer - Pedestal
@@ -126,8 +126,8 @@ function Projects(props) {
       </div>
       {/* ///////// NEW PROJECT CARD - Pedestal End //////////// */}
 
-      {/* ///////// NEW PROJECT CARD - DIGITIZING.IO  //////////// */}
-      <div class="max-w-sm w-full lg:max-w-full lg:flex bg-white rounded-l border">
+      {/* /////////  PROJECT CARD 3 - DIGITIZING.IO  //////////// */}
+      <div class="max-w-sm w-full lg:max-w-full xs:mx-auto lg:flex bg-white rounded-l border">
         <div class="h-auto  bg-cover rounded-t  text-center overflow-hidden ">
           <h2 className="font-source text-3xl p-5 mb-4 mt-7">
             Web3 Engineer - Digitizing.io
