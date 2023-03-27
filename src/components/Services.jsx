@@ -3,20 +3,23 @@ import React from "react";
 
 function Services(props) {
   return (
-    <div className="max-w-sm w-full lg:max-w-full shadowlg xs:mx-auto bg-white rounded-l border p-5">
-      <div className="w-full mx-auto flex mb-4">
+    <div
+      id="services"
+      className="max-w-sm w-full lg:max-w-full shadowlg xs:mx-auto bg-white rounded-l border p-5"
+    >
+      <div className="w-full mx-auto">
         <h2 className="md:text-6xl xs:text-4xl font-source mx-auto w-full h-auto my-5">
           Services
         </h2>
       </div>
 
       {/* services grid container */}
-      <div className="">
+      <div className=" ">
         {/* row 1 container */}
-        <div className="flex mb-4">
+        <div className="md:flex xs:grid-cols-1 mb-4">
           <br />
           {/* WIX DEVELOPMENT */}
-          <div className="w-1/2 h-auto">
+          <div className="w-1/2 h-auto xs:w-full">
             <ul className="">
               <h2 className="text-2xl font-bold">Wix Website Development</h2>
               <br />
@@ -31,9 +34,10 @@ function Services(props) {
               </li>
             </ul>
           </div>
+          <br />
 
           {/* WORDPRESS DEVELOPMENT */}
-          <div className="w-1/2 h-auto">
+          <div className="w-1/2 h-auto xs:w-full">
             <ul>
               <h2 className="text-2xl font-bold">
                 WordPress Website Development
@@ -58,9 +62,9 @@ function Services(props) {
         </div>
 
         {/* row 2 container  */}
-        <div className="flex mb-4">
+        <div className="md:flex mb-4 xs:grid-cols-1">
           {/* SQUARESPACE DEVELOPMENT */}
-          <div className="w-1/2 h-auto">
+          <div className="w-1/2 h-auto xs:w-full">
             <ul>
               <h2 className="text-2xl font-bold">
                 SquareSpace Website Development
@@ -80,7 +84,7 @@ function Services(props) {
           </div>
 
           {/* JAVASCRIPT DEVELOPMENT */}
-          <div className="w-1/2 h-auto">
+          <div className="w-1/2 h-auto xs:w-full">
             <ul>
               <h2 className="text-2xl font-bold">
                 Custom JavaScript Web Applications
@@ -103,9 +107,9 @@ function Services(props) {
         </div>
 
         {/* row 3 container */}
-        <div className="flex mb-4">
+        <div className="md:flex mb-4 xs:grid-cols-1 ">
           {/* REACT DEVELOPMENT */}
-          <div className="w-1/2 h-auto">
+          <div className="w-1/2 h-auto xs:w-full">
             <ul>
               <h2 className="text-2xl font-bold">React Web Development</h2>
               <br />
@@ -125,7 +129,7 @@ function Services(props) {
           </div>
 
           {/* COPYWRITING SERVICES */}
-          <div className="w-1/2 h-auto">
+          <div className="w-1/2 h-auto xs:w-full">
             <ul>
               <h2 className="text-2xl font-bold">Copywriting Services</h2>
               <br />
