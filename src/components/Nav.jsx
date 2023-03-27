@@ -14,6 +14,10 @@ function Nav(props) {
           {" "}
           Experience
         </a>
+        <a href="#services" className={styles.navItem}>
+          {" "}
+          Services
+        </a>
         <a href="#contact" className={styles.navItem}>
           {" "}
           Contact
