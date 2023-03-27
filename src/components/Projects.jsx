@@ -15,8 +15,8 @@ function Projects(props) {
         </h2>
       </div>
       {/* ///////// PROJECT CARD 1 - UNNAMED  //////////// */}
-      <div class="max-w-sm w-full lg:max-w-full xs:mx-auto lg:flex bg-white rounded-l border">
-        <div class="h-auto  bg-cover rounded-t  text-center overflow-hidden ">
+      <div className="max-w-sm w-full lg:max-w-full xs:mx-auto lg:flex bg-white rounded-l border">
+        <div className="h-auto  bg-cover rounded-t  text-center overflow-hidden ">
           <h2 className="font-source text-3xl p-5 mb-4 mt-7">
             Front End Development - Unnamed Technology{" "}
           </h2>
@@ -26,9 +26,9 @@ function Projects(props) {
             className="hover:scale-125 mx-auto"
           />
         </div>
-        <div class="mt-12">
-          <div class="mb-8">
-            <div class="text-gray-900 font-bold text-l mt-12">
+        <div className="mt-12">
+          <div className="mb-8">
+            <div className="text-gray-900 font-bold text-l mt-12">
               <ul className="md:text-left xxs:text-center https://www.unnamed.gg/ xs:px-8 md:pl-8">
                 <li>
                   Working with clients to implement and develop Unnamed
@@ -63,7 +63,7 @@ function Projects(props) {
               <span className="relative font-semibold">Unnamed Site</span>
             </span>
             <span
-              class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0"
+              className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0"
               data-rounded="rounded-lg"
             ></span>
           </a>
@@ -71,8 +71,8 @@ function Projects(props) {
       </div>
       {/* ///////// NEW PROJECT - UNNAMED CARD END //////////// */}
       {/* ///////// PROJECT CARD 3 - PEDESTAL APP  //////////// */}
-      <div class="max-w-sm w-full lg:max-w-full xs:mx-auto lg:flex bg-white rounded-l border">
-        <div class="h-auto  bg-cover rounded-t  text-center overflow-hidden ">
+      <div className="max-w-sm w-full lg:max-w-full xs:mx-auto lg:flex bg-white rounded-l border">
+        <div clasName="h-auto  bg-cover rounded-t  text-center overflow-hidden ">
           <h2 className="font-source text-3xl p-5 mb-4 mt-7">
             Software Engineer - Pedestal
           </h2>
@@ -82,9 +82,9 @@ function Projects(props) {
             className="hover:scale-125 mx-auto mb-7"
           />
         </div>
-        <div class="">
-          <div class="mb-8">
-            <div class="text-gray-900 font-bold text-l mt-12">
+        <div className="">
+          <div className="mb-8">
+            <div className="text-gray-900 font-bold text-l mt-12">
               <ul className="md:text-left xxs:text-center xxs:px-8 md:px-4 ">
                 {" "}
                 <li>
