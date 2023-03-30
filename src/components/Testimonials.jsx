@@ -46,6 +46,28 @@ function Testimonials(props) {
           >
             Lindsay - <span className="text-2xl">Dot Digital Photography</span>
           </a>
+          <br />
+          <br />
+        </div>
+        <div className="col-span-2">
+          <p className="text-xl md:px-12">
+            "I hired KJ originally to revamp our SEO. After consulting with her
+            about the possibilities and redesign of the website, I decided to
+            bring her on to do a complete rebuild. She worked efficiently and
+            communicated each step as she went. It was great working with her
+            and I recommend her to anyone who needs a competent developer on
+            their team. "
+            <br />
+            <br />
+          </p>
+          <a
+            href="https://www.uglyduckstudios.com/"
+            className="font-bold text-xl font-source"
+          >
+            Sam - <span className="text-2xl">Ugly Duck Studios</span>
+          </a>
+          <br />
+          <br />
         </div>
       </div>
     </div>
