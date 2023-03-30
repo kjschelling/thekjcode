@@ -1,9 +1,7 @@
-const colors = require('tailwindcss/colors');
+const colors = require("tailwindcss/colors");
 
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     colors: {
       gray: colors.slate,
@@ -13,29 +11,25 @@ module.exports = {
       red: colors.red,
       black: colors.black,
       white: colors.white,
-      'dark-metal': '#1E293B',
-      'burgundy': '#550015',
-      'biege': '#F2EBE2',
     },
     screens: {
       xxs: "270px",
       xs: "320px",
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
-      xxl: "1980px"
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
+      xxl: "1980px",
     },
     fontFamily: {
-      roboto: ['Roboto', 'sans-serif'],
-      source: ['Source Sans Pro', 'sans-serif'],
-
+      roboto: ["Roboto", "sans-serif"],
+      source: ["Source Sans Pro", "sans-serif"],
     },
     extend: {
       scale: {
-        '115': '1.15'
-      }
+        115: "1.15",
+      },
     },
   },
   plugins: [],
-}
+};
