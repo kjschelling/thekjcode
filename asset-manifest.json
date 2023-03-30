@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.abf38659.css",
-    "main.js": "/static/js/main.d19015a3.js",
+    "main.css": "/static/css/main.b0ce1d36.css",
+    "main.js": "/static/js/main.67f19ff2.js",
     "static/media/Ball-Gif.gif": "/static/media/Ball-Gif.80a352df14bf8f274ad5.gif",
     "static/media/Ball-Gif-smol.gif": "/static/media/Ball-Gif-smol.389b425d40e9db71f134.gif",
     "static/media/kjcodeheadshot.png": "/static/media/kjcodeheadshot.2e80933f85ca45be2bff.png",
@@ -14,11 +14,11 @@
     "static/media/medium.svg": "/static/media/medium.8bbcc95146a26eb04eaa96b1e3c60d00.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.cdd55264eb1ae66abe74b56e1b007953.svg",
     "index.html": "/index.html",
-    "main.abf38659.css.map": "/static/css/main.abf38659.css.map",
-    "main.d19015a3.js.map": "/static/js/main.d19015a3.js.map"
+    "main.b0ce1d36.css.map": "/static/css/main.b0ce1d36.css.map",
+    "main.67f19ff2.js.map": "/static/js/main.67f19ff2.js.map"
   },
   "entrypoints": [
-    "static/css/main.abf38659.css",
-    "static/js/main.d19015a3.js"
+    "static/css/main.b0ce1d36.css",
+    "static/js/main.67f19ff2.js"
   ]
 }
