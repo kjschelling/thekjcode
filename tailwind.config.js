@@ -11,6 +11,7 @@ module.exports = {
       red: colors.red,
       black: colors.black,
       white: colors.white,
+      beige: "#efe4de",
     },
     screens: {
       xxs: "270px",
