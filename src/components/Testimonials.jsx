@@ -40,8 +40,6 @@ function Testimonials(props) {
           Lindsay - <span className="text-2xl">Dot Digital Photography</span>
         </a>
       </p>
-      <br />
-      <br />
     </div>
   );
 }
