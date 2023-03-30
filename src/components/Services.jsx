@@ -5,16 +5,16 @@ function Services(props) {
   return (
     <div
       id="services"
-      className="mt-12 shadowlg xs:mx-auto w-3/4 bg-beige rounded-2xl border-4 border-black mx-auto shadow-l border p-5"
+      className="mt-12 xs:mx-auto w-3/4 bg-beige rounded-2xl border-4 border-black mx-auto shadow-l border p-5"
     >
       <div className="w-full mx-auto">
-        <h2 className="text-6xl  font-source mx-auto w-full h-auto my-5 my-12">
+        <h2 className="xs:text-4xl md:text-6xl  font-source mx-auto w-full h-auto my-5 mt-12">
           Services
         </h2>
       </div>
 
       {/* services grid container */}
-      <div className=" ">
+      <div className="p-10">
         {/* row 1 container */}
         <div className="md:flex xs:grid-cols-1 mb-4">
           <br />
