@@ -7,7 +7,7 @@ import KlapesImg from "../images/projects/KlapesComp.png";
 
 function Projects(props) {
   return (
-    <div id="project_section" className="w-full text-black mx-auto p-10">
+    <div id="project_section" className="w-full text-black mx-auto p-12">
       <div className="mt-12 md:py-4 mb-12">
         <h2 className="text-center font-source text-6xl xs:mb-12 md:mb-1">
           {" "}
@@ -15,8 +15,8 @@ function Projects(props) {
         </h2>
       </div>
       {/* ///////// PROJECT CARD 1 - UNNAMED  //////////// */}
-      <div className="w-full bg-white md:flex rounded-2xl border-4 border-black mx-auto mb-10">
-        <div className="h-auto bg-cover rounded-t  text-center overflow-hidden ">
+      <div className=" md:p-10 w-full bg-white md:flex rounded-2xl border-4 border-black mx-auto mb-10">
+        <div className="h-auto bg-cover rounded-t text-center overflow-hidden ">
           <h2 className="font-source text-3xl p-5 mb-4 mt-7">
             Front End Development - Unnamed Technology{" "}
           </h2>
@@ -74,7 +74,7 @@ function Projects(props) {
       {/* ///////// NEW PROJECT - UNNAMED CARD END //////////// */}
 
       {/* ///////// PROJECT CARD 3 - PEDESTAL APP  //////////// */}
-      <div className="w-full  md:flex bg-white rounded-2xl border-4 border-black mx-auto mb-10">
+      <div className=" md:p-10 w-full  md:flex bg-white rounded-2xl border-4 border-black mx-auto mb-10">
         <div clasName="h-auto  bg-cover rounded-t  text-center overflow-hidden ">
           <h2 className="font-source text-3xl p-5 mb-4 mt-7">
             Software Engineer - Pedestal
@@ -132,7 +132,7 @@ function Projects(props) {
       {/* ///////// NEW PROJECT CARD - Pedestal End //////////// */}
 
       {/* /////////  PROJECT CARD 3 - DIGITIZING.IO  //////////// */}
-      <div class="w-full  md:flex bg-white rounded-2xl border-4 border-black mx-auto mb-10">
+      <div class="w-full md:p-10  md:flex bg-white rounded-2xl border-4 border-black mx-auto mb-10">
         <div class="h-auto  bg-cover rounded-t  text-center overflow-hidden ">
           <h2 className="font-source text-3xl p-5 mb-4 mt-7">
             Web3 Engineer - Digitizing.io
