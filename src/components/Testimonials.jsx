@@ -25,7 +25,9 @@ function Testimonials(props) {
             href="https://unnamed.gg/"
             className="font-bold text-xl font-source"
           >
-            Aaron - <span className="text-2xl">Unnamed Technology</span>
+            Aaron - Founder
+            <br />
+            <span className="text-2xl">Unnamed Technology</span>
           </a>
           <br />
           <br />
@@ -44,7 +46,8 @@ function Testimonials(props) {
             href="https://www.dotdigitalphoto.com/"
             className="font-bold text-xl font-source"
           >
-            Lindsay - <span className="text-2xl">Dot Digital Photography</span>
+            Lindsay - Owner <br />
+            <span className="text-2xl">Dot Digital Photography</span>
           </a>
           <br />
           <br />
@@ -64,7 +67,31 @@ function Testimonials(props) {
             href="https://www.uglyduckstudios.com/"
             className="font-bold text-xl font-source"
           >
-            Sam - <span className="text-2xl">Ugly Duck Studios</span>
+            Sam - Owner
+            <br />
+            <span className="text-2xl">Ugly Duck Studios</span>
+          </a>
+          <br />
+          <br />
+        </div>
+
+        <div className="col-span-2">
+          <p className="text-xl md:px-12">
+            "KJ is a fantastic person to work with. My website was really
+            sluggish, having had too many people work on it. KJ was able to
+            clean it up (quite impressive knowledge of all sorts of quirky
+            add-ons I didn’t need) and got it running at speeds well beyond what
+            I thought possible. She also responds very quickly, is fair about
+            her time, and a really nice person, too. Hire her! "
+            <br />
+            <br />
+          </p>
+          <a
+            href="https://abandofvoters.org/"
+            className="font-bold text-xl font-source"
+          >
+            Joey - Non-profit Founder and Filmmaker <br />
+            <span className="text-2xl">A Band of Voters</span>
           </a>
           <br />
           <br />
