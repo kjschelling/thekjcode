@@ -7,7 +7,7 @@ function About(props) {
   return (
     <div id="about_section" className=" p-10 text-center mx-auto m-12 ">
       <div className="mb-12 pb-4">
-        <h2 className="font-source text-5xl">About Me</h2>
+        <h2 className="font-source text-5xl drop-shadow-md">About Me</h2>
         {/* <img src={kjcodeheadshot} className={clsx(styles.headshot)} /> */}
       </div>
       <div className="max-w-3/4 mx-auto pb-6">
