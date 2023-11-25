@@ -23,7 +23,8 @@ function Nav(props) {
           Contact
         </a>
         <a
-          href="https://drive.google.com/file/d/19H8b4UBCTSieEDJ399JORLIXpfsMD_Gt/view?usp=sharing"
+          href="https://drive.google.com/file/d/1kKADIcmfrWjWhSoia27zyOjGM1fNBwgz/view?usp=sharing"
+          target="_blank"
           className={styles.navItem}
         >
           {" "}

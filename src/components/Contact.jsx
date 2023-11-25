@@ -16,7 +16,9 @@ function Contact(props) {
   return (
     <div id="contact" classname="full">
       <div className={clsx(styles.contactSection, "mx-auto text-center")}>
-        <h2 className="md:text-6xl xs:text-4xl font-source">Get In Touch</h2>
+        <h2 className=" drop-shadow-md md:text-6xl xs:text-4xl font-source">
+          Get In Touch
+        </h2>
         <p className="py-5 font-roboto md:text-2xl xs:text-xl xs:px-12">
           I am always open to new opporunities. Schedule your FREE consultation
           today! Please download my resume and contact anytime!
