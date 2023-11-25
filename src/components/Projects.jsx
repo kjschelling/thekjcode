@@ -14,123 +14,6 @@ function Projects(props) {
           Experience{" "}
         </h2>
       </div>
-      {/* ///////// PROJECT CARD 1 - UNNAMED  //////////// */}
-      <div className=" md:p-10 w-full bg-white md:flex border-2 mx-auto mb-10">
-        <div className="h-auto bg-cover rounded-t text-center overflow-hidden ">
-          <h2 className="font-source text-3xl p-5 mb-4 mt-7">
-            Front End Development - Unnamed Technology{" "}
-          </h2>
-          <img
-            src={UnnamedImg}
-            height="500px"
-            width="500px"
-            title="Pedestal Image"
-            className="hover:scale-125 mx-auto"
-          />
-        </div>
-        <div className="mt-12">
-          <div className="mb-8">
-            <div className="text-gray-900 font-bold text-l mt-12">
-              <ul className="md:text-left xxs:text-center https://www.unnamed.gg/ xs:px-8 md:pl-8">
-                <li>
-                  Working with clients to implement and develop Unnamed
-                  Technology landing page for
-                  <br />
-                  <a href="https://veecon.co/" className="font-semibold">
-                    VeeCon NYC
-                  </a>
-                  .
-                </li>
-                <br />
-                <li>
-                  Built using React.js, Tailwind for responsive & interactive
-                  mobile first experience, using design best practices.
-                </li>
-                <br />
-                <li>
-                  Ensured the website is accessible across many platforms,
-                  desktop/mobile and optimized for peak performance.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="flex items-center"></div>
-          <a
-            href="https://www.unnamed.gg/"
-            className="relative inline-block text-lg group mb-10"
-          >
-            <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
-              <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
-              <span className="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
-              <span className="relative font-semibold">Unnamed Site</span>
-            </span>
-            <span
-              className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0"
-              data-rounded="rounded-lg"
-            ></span>
-          </a>
-        </div>
-      </div>
-      {/* ///////// NEW PROJECT - UNNAMED CARD END //////////// */}
-
-      {/* ///////// PROJECT CARD 3 - PEDESTAL APP  //////////// */}
-      <div className=" md:p-10 w-full  md:flex bg-white border-2 mx-auto mb-10">
-        <div clasName="h-auto  bg-cover rounded-t  text-center overflow-hidden ">
-          <h2 className="font-source text-3xl p-5 mb-4 mt-7">
-            Software Engineer - Pedestal
-          </h2>
-          <img
-            height="500px"
-            width="500px"
-            src={PedestalImg}
-            title="Pedestal Image"
-            className="hover:scale-125 mx-auto mb-7"
-          />
-        </div>
-        <div className="">
-          <div className="mb-8">
-            <div className="text-gray-900 font-bold text-l mt-12">
-              <ul className="md:text-left xxs:text-center xxs:px-8 md:px-4 ">
-                {" "}
-                <li>
-                  Working with a team to develop and implement SaaS social media
-                  platform Pedestal. Pedestal enables mentors and mentees to
-                  connect & monetize mentorship.
-                </li>
-                <br />
-                <li>
-                  {" "}
-                  Built and operated using AWS, Express.js, Node.js, MongoDB,
-                  React.js, Typescript.
-                </li>
-                <br />
-                <li>
-                  Analyzing and implementing workflows assisting in optimizing
-                  team productivity.
-                  <br />
-                </li>
-                <br />
-                <li> Implementing REST API & third-party API integrations</li>
-                <br />
-                <li>
-                  <br />
-                  Creating and maintaining internal & external technical
-                  documentation.
-                </li>
-                <br />
-                <li>
-                  <br />
-                  Running preliminary R&D mentorship program for the Pedestal
-                  app resulting in job placement for mentee.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="flex items-center"></div>
-        </div>
-      </div>
-      {/* ///////// NEW PROJECT CARD - Pedestal End //////////// */}
-
       {/* /////////  PROJECT CARD 3 - DIGITIZING.IO  //////////// */}
       <div class="w-full md:p-10  md:flex bg-white border-2  mx-auto mb-10">
         <div class="h-auto  bg-cover rounded-t  text-center overflow-hidden ">
@@ -235,6 +118,123 @@ function Projects(props) {
         </div>
       </div>
       {/* ///////// NEW PROJECT - DIGITIZING.IO END //////////// */}
+
+      {/* ///////// PROJECT CARD 2 - PEDESTAL APP  //////////// */}
+      <div className=" md:p-10 w-full  md:flex bg-white border-2 mx-auto mb-10">
+        <div clasName="h-auto  bg-cover rounded-t  text-center overflow-hidden ">
+          <h2 className="font-source text-3xl p-5 mb-4 mt-7">
+            Software Engineer - Pedestal
+          </h2>
+          <img
+            height="500px"
+            width="500px"
+            src={PedestalImg}
+            title="Pedestal Image"
+            className="hover:scale-125 mx-auto mb-7"
+          />
+        </div>
+        <div className="">
+          <div className="mb-8">
+            <div className="text-gray-900 font-bold text-l mt-12">
+              <ul className="md:text-left xxs:text-center xxs:px-8 md:px-4 ">
+                {" "}
+                <li>
+                  Working with a team to develop and implement SaaS social media
+                  platform Pedestal. Pedestal enables mentors and mentees to
+                  connect & monetize mentorship.
+                </li>
+                <br />
+                <li>
+                  {" "}
+                  Built and operated using AWS, Express.js, Node.js, MongoDB,
+                  React.js, Typescript.
+                </li>
+                <br />
+                <li>
+                  Analyzing and implementing workflows assisting in optimizing
+                  team productivity.
+                  <br />
+                </li>
+                <br />
+                <li> Implementing REST API & third-party API integrations</li>
+                <br />
+                <li>
+                  <br />
+                  Creating and maintaining internal & external technical
+                  documentation.
+                </li>
+                <br />
+                <li>
+                  <br />
+                  Running preliminary R&D mentorship program for the Pedestal
+                  app resulting in job placement for mentee.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex items-center"></div>
+        </div>
+      </div>
+      {/* ///////// NEW PROJECT CARD - Pedestal End //////////// */}
+
+      {/* ///////// PROJECT CARD 3 - UNNAMED  //////////// */}
+      <div className=" md:p-10 w-full bg-white md:flex border-2 mx-auto mb-10">
+        <div className="h-auto bg-cover rounded-t text-center overflow-hidden ">
+          <h2 className="font-source text-3xl p-5 mb-4 mt-7">
+            Front End Development - Unnamed Technology{" "}
+          </h2>
+          <img
+            src={UnnamedImg}
+            height="500px"
+            width="500px"
+            title="Pedestal Image"
+            className="hover:scale-125 mx-auto"
+          />
+        </div>
+        <div className="mt-12">
+          <div className="mb-8">
+            <div className="text-gray-900 font-bold text-l mt-12">
+              <ul className="md:text-left xxs:text-center https://www.unnamed.gg/ xs:px-8 md:pl-8">
+                <li>
+                  Working with clients to implement and develop Unnamed
+                  Technology landing page for
+                  <br />
+                  <a href="https://veecon.co/" className="font-semibold">
+                    VeeCon NYC
+                  </a>
+                  .
+                </li>
+                <br />
+                <li>
+                  Built using React.js, Tailwind for responsive & interactive
+                  mobile first experience, using design best practices.
+                </li>
+                <br />
+                <li>
+                  Ensured the website is accessible across many platforms,
+                  desktop/mobile and optimized for peak performance.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex items-center"></div>
+          <a
+            href="https://www.unnamed.gg/"
+            className="relative inline-block text-lg group mb-10"
+          >
+            <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+              <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
+              <span className="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
+              <span className="relative font-semibold">Unnamed Site</span>
+            </span>
+            <span
+              className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0"
+              data-rounded="rounded-lg"
+            ></span>
+          </a>
+        </div>
+      </div>
+      {/* ///////// NEW PROJECT - UNNAMED CARD END //////////// */}
     </div>
   );
 }
