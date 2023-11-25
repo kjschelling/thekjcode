@@ -9,13 +9,13 @@ function Projects(props) {
   return (
     <div id="project_section" className="w-full text-black mx-auto p-12">
       <div className="mt-12 md:py-4 mb-12">
-        <h2 className="text-center font-source text-6xl xs:mb-12 md:mb-1">
+        <h2 className=" drop-shadow-md text-center font-source text-6xl xs:mb-12 md:mb-1">
           {" "}
           Experience{" "}
         </h2>
       </div>
       {/* ///////// PROJECT CARD 1 - UNNAMED  //////////// */}
-      <div className=" md:p-10 w-full bg-white md:flex rounded-2xl border-4 border-black mx-auto mb-10">
+      <div className=" md:p-10 w-full bg-white md:flex border-2 mx-auto mb-10">
         <div className="h-auto bg-cover rounded-t text-center overflow-hidden ">
           <h2 className="font-source text-3xl p-5 mb-4 mt-7">
             Front End Development - Unnamed Technology{" "}
@@ -74,7 +74,7 @@ function Projects(props) {
       {/* ///////// NEW PROJECT - UNNAMED CARD END //////////// */}
 
       {/* ///////// PROJECT CARD 3 - PEDESTAL APP  //////////// */}
-      <div className=" md:p-10 w-full  md:flex bg-white rounded-2xl border-4 border-black mx-auto mb-10">
+      <div className=" md:p-10 w-full  md:flex bg-white border-2 mx-auto mb-10">
         <div clasName="h-auto  bg-cover rounded-t  text-center overflow-hidden ">
           <h2 className="font-source text-3xl p-5 mb-4 mt-7">
             Software Engineer - Pedestal
@@ -132,7 +132,7 @@ function Projects(props) {
       {/* ///////// NEW PROJECT CARD - Pedestal End //////////// */}
 
       {/* /////////  PROJECT CARD 3 - DIGITIZING.IO  //////////// */}
-      <div class="w-full md:p-10  md:flex bg-white rounded-2xl border-4 border-black mx-auto mb-10">
+      <div class="w-full md:p-10  md:flex bg-white border-2  mx-auto mb-10">
         <div class="h-auto  bg-cover rounded-t  text-center overflow-hidden ">
           <h2 className="font-source text-3xl p-5 mb-4 mt-7">
             Web3 Engineer - Digitizing.io
